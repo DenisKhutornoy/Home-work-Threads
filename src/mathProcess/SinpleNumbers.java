@@ -16,12 +16,12 @@ public class SinpleNumbers {
 
         }else {
             int j = numbers.length+1;
-           int [] arrayFlower = new int[j];
+           int [] arrayNumbers = new int[j];
             for (int i = 0; i < numbers.length; i++) {
-                arrayFlower[i] = numbers[i];
+                arrayNumbers[i] = numbers[i];
             }
-            arrayFlower[j-1] = numberToadd;
-            numbers = arrayFlower;
+            arrayNumbers[j-1] = numberToadd;
+            numbers = arrayNumbers;
         }
         return numbers;
 
